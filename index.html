@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Password Strength Checker</title>
+    <!-- FontAwesome Icons -->
+	<center> <img src="title.png" class="centerImage" height="120" width="350" alt="Website title"> </center>
+		<center><p style="color:darkblue;"> Think you have a strong password? Find out Below </p>	</center>
+			<br> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <input type="password" id="content" oninput="strengthChecker()">
+            <span id="toggle" onclick="toggle()">
+                <i class="fas fa-eye"></i>
+            </span>
+			<button type="submit">Generate a password</button>
+
+        </div>
+        <p id="score"></p>
+        <p id="evaluation"></p>
+        <p id="feedback"></p>
+    </div>
+	  
+
+    <!--Script-->
+    <script src="script.js">
+	</script>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	
+	<sub><center> <img src="tip1.png" height="220" width="450" alt="tip"></sub>
+	</br>
+	<sub> <center> <h3> Note: Password data will not be stored on a <br> server and is only processed in the browser</p> </center>
+    <br>
+	<br>
+
+</body>
+</html>
